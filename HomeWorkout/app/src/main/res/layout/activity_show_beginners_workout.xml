@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ShowBeginnersWorkoutActivity"
+    android:background="@color/Background"
+    android:paddingHorizontal="10dp">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/workout_list"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/NOS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/StartWorkouts"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/radius"
+        android:fontFamily="@font/francophilsans"
+        android:text="StartWorkout"
+        android:textColor="@color/Background"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NOS" />
+
+    <EditText
+        android:id="@+id/NOS"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:hint="Enter the number of sets"
+        android:inputType="number"
+        android:textColor="@color/Heading"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/StartWorkouts"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/workout_list" />
+</androidx.constraintlayout.widget.ConstraintLayout>

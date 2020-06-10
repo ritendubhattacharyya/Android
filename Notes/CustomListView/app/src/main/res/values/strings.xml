@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CustomListView</string>
+    <string-array name="name">
+        <item>Black Panther</item>
+        <item>Captain America</item>
+        <item>Falcon</item>
+        <item>Hulk</item>
+        <item>Iron man</item>
+        <item>Thor</item>
+    </string-array>
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HomeWorkout</string>
+    <string name="welcome_to_lco_home_workout">Welcome to HOME WORKOUT</string>
+    <string name="workout">BEGINNERS WORKOUT</string>
+    <string name="set_workout">ADVANCE WORKOUT</string>
+    <string name="todo">TODO</string>
+
+    <string-array name="days_resource">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+</resources>

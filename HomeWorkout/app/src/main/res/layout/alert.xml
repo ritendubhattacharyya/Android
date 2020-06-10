@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="370dp"
+    android:layout_height="wrap_content"
+    android:background="@color/Background"
+    android:padding="10dp"
+    android:gravity="center_horizontal"
+    android:id="@+id/add_alert">
+
+
+    <Spinner
+        android:id="@+id/days"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="Choose the day"
+        android:layout_margin="8dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Workout"
+        android:id="@+id/first_workout"
+        android:layout_margin="8dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Second Workout"
+        android:id="@+id/second_workout"
+        android:layout_margin="8dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Third Workout"
+        android:id="@+id/third_workout"
+        android:layout_margin="8dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fourth Workout"
+        android:id="@+id/fourth_workout"
+        android:layout_margin="8dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fifth Workout"
+        android:id="@+id/fifth_workout"
+        android:layout_margin="8dp"/>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:background="@drawable/radius"
+        android:textColor="#ffffff"
+        android:layout_margin="8dp"/>
+</LinearLayout>
